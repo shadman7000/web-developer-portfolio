@@ -14,6 +14,9 @@
 .text-primary {
     color: #FD6E0A;
 }
+.dark-1{
+    color: #181818;
+}
 .dark-2{
     color: #474747;
 }
@@ -37,6 +40,10 @@
 .section-description{
     font-size: 18px;
     color: #757575;
+    padding: 30px 345px 50px 345px;
+}
+.text-center{
+    text-align: center;
 }
 /* Nav Styles */
 nav {
@@ -111,12 +118,15 @@ nav li a{
     max-width: 1140px;
     margin: 0 auto;
 }
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
 /* about styles */
 .about{
     border-radius: 10px;
     padding: 130px 150px;
     text-align: center;
-    margin-top: 130px;
 }
 .about-items{
     display: flex;
@@ -127,4 +137,89 @@ nav li a{
 }
 .item-description{
     font-weight: 600;
+}
+
+/* Skill styles */
+.skill-items{
+    display: flex;
+    gap: 24px;
+    justify-items: center;
+}
+.skills{
+    padding: 104px 33px 30px 30px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    width: 100%;
+}
+.skill-item{
+    color: #181818;
+    text-align: center;
+    padding-top: 50px;
+}
+.skill-description{
+    color: #5f5e5e;
+    text-align: center;
+    padding: 0px 30px 0px 30px ;
+}
+.skill-title{
+    align-items: center;
+}
+/* resume section styles */
+.resume{
+    justify-items: center;
+}
+.resume-container{
+    display: flex;
+    gap: 24px;
+
+}
+.experience-sub-title{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+.experience-description{
+    font-size: 16px;
+}
+.experience-description, .experience-sub-title{
+    color: #757575;
+}
+.resume hr{
+    margin: 30px 5px;
+}
+.resume button{
+    justify-content: space-evenly ;
+}
+.resume-column{
+    background-color: #474747 #5f5e5e;
+    width: 50%;
+}
+.resume-btn{
+    margin: 50px;
+}
+.left{
+    margin-left: 277px;
+}
+.right{
+    margin-right: 277px;
+}
+/* Footer Section Styles */
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+.footer-column{
+    width: 50%;
+}
+footer input[type ="text"], footer input[type = "email"], footer textarea {
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
 }
